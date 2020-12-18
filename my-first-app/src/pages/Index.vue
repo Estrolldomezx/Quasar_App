@@ -12,7 +12,7 @@
       swipeable
       animated
       :control-type="controlType"
-      control-color="purple"
+      control-color="white"
       navigation
       padding
       arrows
@@ -28,6 +28,9 @@
       <q-carousel-slide :name="4" img-src="https://cdn.quasar.dev/img/quasar.jpg" >
       </q-carousel-slide>
     </q-carousel>
+         <div class="q-pa-md q-gutter-sm">
+       <q-btn color="primary" label="Go Home" icon="home" @click="$router.replace('/aboutme')"/>
+     </div>
   </div>
 </template>
 
